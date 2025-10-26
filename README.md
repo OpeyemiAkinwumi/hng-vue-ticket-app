@@ -9,6 +9,6 @@ Login session is stored in the session storage.
 
 Data pertaining to ticket creation, read, update and delete, is stored in the localstorage.
 
-Live URL: https://hng-react-ticket-app.vercel.app/
+Live URL: https://hng-vue-ticket-app.vercel.app/
 
-GitHub repo: https://github.com/OpeyemiAkinwumi/hng-react-ticket-app/tree/main/public
+GitHub repo: https://github.com/OpeyemiAkinwumi/hng-vue-ticket-app
