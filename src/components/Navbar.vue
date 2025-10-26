@@ -29,7 +29,7 @@
         @click="toggleMenu"
         aria-label="Toggle menu"
       >
-        <component :is="isOpen ? FaTimes : FaBars" :size="22" />
+        <component :is="isOpen ? MdCancel : GlHamburger" :size="30" />
       </button>
     </div>
 
@@ -62,6 +62,8 @@
 
 <script setup>
 import { ref } from "vue";
+import { GlHamburger } from "@kalimahapps/vue-icons";
+import { MdCancel } from "@kalimahapps/vue-icons";
 // import { FaBars, FaTimes } from "vue-icons/fa"; // uses vue-icons version
 
 const isOpen = ref(false);
